@@ -6,4 +6,8 @@
     html {
       font-family: "Inter Tight", system-ui, sans-serif;
     }
-  }
+}
+
+.inner {
+  @apply w-11/12 max-w-screen-md mx-auto;
+}
