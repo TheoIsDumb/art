@@ -3,14 +3,14 @@
 </script>
 
 <div class="inner my-0 flex flex-col items-center justify-center">
-  <A/>
+  <A />
 
   <a
-    href="/gallery"
+    href="gallery"
     class="bg-white px-4 py-1 rounded shadow-lg
     hover:bg-blue-200 hover:scale-110 transition-all duration-500"
   >
-  Go!
+    Go!
   </a>
 </div>
 

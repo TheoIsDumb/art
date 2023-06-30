@@ -8,8 +8,8 @@
 
 <div class="inner my-1 grid gap-2 grid-cols-2 md:grid-cols-4">
   {#each Object.keys(thumbs) as thumb}
-    <Image {thumb}/>
+    <Image {thumb} />
   {/each}
 </div>
 
-<Footer/>
+<Footer />
