@@ -6,7 +6,7 @@
 		"dev": "vite dev --host --open",
 		"build": "vite build",
 		"preview": "vite preview --host --open",
-		"postbuild": "for f in $(fd -tf . static/img); do cwebp $f -resize 0 480 -o $(echo $f | sed 's:img:thumb:g'); done"
+		"postbuild": "python thumbgen.py"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
